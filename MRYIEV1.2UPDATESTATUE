@@ -190,3 +190,4 @@ end
 coroutine.wrap(RZJF_fake_script)()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/yieviro92creepy/Yedi5/main/Oo4"),true))()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/finngameandglitch/bypass/main/bypass'))()
+game:GetService("ReplicatedStorage").Entities.Screech:destroy()
