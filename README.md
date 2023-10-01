@@ -20,7 +20,7 @@ _100x100.Name = "100x100"
 
 _100x100.Parent = KINGHUBMOBILE
 
-_100x100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_100x100.BackgroundColor3 = Color3.fromRGB(0,25 + 207 ,580 -325)
 
 _100x100.Position = Positions
 
@@ -28,7 +28,7 @@ _100x100.Size = UDim2.new(0, 76, 0, 70)
 
 ImageButton.Parent = _100x100
 
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundColor3 = Color3.fromRGB(0,25 + 207 ,580 -325)
 
 ImageButton.Size = Sizes
 
@@ -42,9 +42,9 @@ end)
 -- Made By Yieviro92
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Script Loaded";
+    Title = "HEY BRO!";
     Text = "SUB CHANNEL YIEVIRO92CREPPY";
-    Duration = 100; 
+    Duration = 15;
 })
 
 local StarterGui = Instance.new("ScreenGui")
@@ -83,7 +83,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 TextButton.Position = UDim2.new(0.0895883814, 0, 0.712230206, 0)
 TextButton.Size = UDim2.new(0.343825668, 0, 0.172661871, 0)
 TextButton.Font = Enum.Font.Cartoon
-TextButton.Text = ""
+TextButton.Text = "🚷"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
@@ -96,7 +96,7 @@ TextButton_2.BackgroundColor3 = Color3.fromRGB(25, 255, 0)
 TextButton_2.Position = UDim2.new(0.544794202, 0, 0.712230206, 0)
 TextButton_2.Size = UDim2.new(0.343825668, 0, 0.172661871, 0)
 TextButton_2.Font = Enum.Font.Cartoon
-TextButton_2.Text = ""
+TextButton_2.Text = "✅"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
@@ -121,7 +121,7 @@ TextBox.Position = UDim2.new(0.256658584, 0, 0.323741019, 0)
 TextBox.Size = UDim2.new(0.484261513, 0, 0.179856122, 0)
 TextBox.Font = Enum.Font.Cartoon
 TextBox.PlaceholderText = ""
-TextBox.Text = "16"
+TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(97, 97, 97)
 TextBox.TextScaled = true
 TextBox.TextSize = 14.000
@@ -135,7 +135,7 @@ TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.Position = UDim2.new(0.0765053779, 0, 1, 0)
 TextLabel_2.Size = UDim2.new(0, 106, 0, 27)
 TextLabel_2.Font = Enum.Font.Cartoon
-TextLabel_2.Text = "Numbers only"
+TextLabel_2.Text = ""
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -168,7 +168,7 @@ local function YDDLQYT_fake_script() -- TextButton_2.LocalScript
 	local script = Instance.new('LocalScript', TextButton_2)
 	local player = game.Players.LocalPlayer
 	script.Parent.MouseButton1Click:Connect(function()
-		wait(0.6)
+		wait()
 		script.Parent.Parent.Visible = false
 		game.Players.LocalPlayer.character.Humanoid.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
